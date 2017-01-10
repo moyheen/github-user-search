@@ -17,6 +17,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+        prod {
+
+        }
+        mock {
+            applicationId "com.moyinoluwa.githubusersearch.mock"
+        }
+    }
 }
 
 dependencies {
